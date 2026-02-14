@@ -1,7 +1,6 @@
-print('hello world')
+import sys
 
-for i in range(0, 10):
-  print(i)
-  print('\n')
+name = sys.argv[1]
 
-print('finished')
+print('\nParameter: ', name)
+
